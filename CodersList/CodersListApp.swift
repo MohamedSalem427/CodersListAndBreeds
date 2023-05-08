@@ -17,8 +17,7 @@ struct CodersListApp: App {
     
     var body: some Scene {
         WindowGroup {
-            //CatTypesScreen.build(persistenceController.container.viewContext)
-            CodersListScreen.build()
+            CatTypesScreen.build(persistenceController.container.viewContext)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }.onChange(of: scenePhase) { newScenePhase in
             switch newScenePhase {
