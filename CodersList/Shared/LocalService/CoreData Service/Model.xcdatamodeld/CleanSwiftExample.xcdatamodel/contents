@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G2022" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDUserData" representedClassName=".CDUserData" syncable="YES">
+        <attribute name="accountCode" optional="YES" attributeType="String"/>
+        <attribute name="cidFilename" optional="YES" attributeType="String"/>
+        <attribute name="companyId" optional="YES" attributeType="String"/>
+        <attribute name="corpEmail" optional="YES" attributeType="String"/>
+        <attribute name="countryCode" optional="YES" attributeType="String"/>
+        <attribute name="countryFlag" optional="YES" attributeType="String"/>
+        <attribute name="dob" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstNameAr" optional="YES" attributeType="String"/>
+        <attribute name="firstNameEn" optional="YES" attributeType="String"/>
+        <attribute name="idCopy" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idCountry" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idCountryDesc" optional="YES" attributeType="String"/>
+        <attribute name="idExpiry" optional="YES" attributeType="String"/>
+        <attribute name="idNumber" optional="YES" attributeType="String"/>
+        <attribute name="idType" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idTypeDesc" optional="YES" attributeType="String"/>
+        <attribute name="lastNameAr" optional="YES" attributeType="String"/>
+        <attribute name="lastNameEn" optional="YES" attributeType="String"/>
+        <attribute name="licCountry" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="licCountryDesc" optional="YES" attributeType="String"/>
+        <attribute name="licExpiry" optional="YES" attributeType="String"/>
+        <attribute name="licFilename" optional="YES" attributeType="String"/>
+        <attribute name="licNumber" optional="YES" attributeType="String"/>
+        <attribute name="licType" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="licTypeDesc" optional="YES" attributeType="String"/>
+        <attribute name="mobile" optional="YES" attributeType="String"/>
+        <attribute name="nationality" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nationalityDesc" optional="YES" attributeType="String"/>
+        <attribute name="nidFilename" optional="YES" attributeType="String"/>
+        <attribute name="prefLang" optional="YES" attributeType="String"/>
+        <attribute name="selfieFilename" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+        <attribute name="verified" optional="YES" attributeType="String"/>
+        <attribute name="vicFilename" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CDUserData" positionX="-63" positionY="-18" width="128" height="583"/>
+    </elements>
+</model>
